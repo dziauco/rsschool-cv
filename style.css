@@ -1,1 +1,58 @@
-/* there will be some style */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    background-color: whitesmoke;
+}
+
+.center {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}
+
+h1 {
+font-size: 35px;
+}
+
+h2 {
+font-size: 17px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cvphoto {
+    margin-top: 75px;
+}
+
+pre {
+    margin: 0px;
+    background-color:floralwhite;
+}
+
+.job {
+    font-size: 23px;
+}
+
+.rsschool {
+    margin-top: 5px;
+    margin-bottom: 23.45px;
+    text-align: center;
+}
+
+.menu {
+background-color: floralwhite;
+}
+
+code {
+    margin-bottom: 0px;
+    background-color:floralwhite;
+}
+
+.footer-links {
+    text-align: center;
+}
